@@ -1,0 +1,131 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	border:1px solid black;
+	width:100%;
+	background-color: rgb(170, 168, 165);
+
+}
+
+.main{
+	
+	width: 76%;
+	margin: auto;
+	background-color: rgb(28, 28, 61);
+}
+
+.main .main-1{
+	
+	width: 45%;
+}
+
+.main .main-1 img{
+	border-radius: 100%;
+	border: 5px dotted rgb(229, 245, 6);
+	width: 250px;
+	height: 250px;
+	margin: 17%;
+
+}
+
+.main .main-1 h1{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: beige;
+	font-size: 50px;
+}
+
+.main .main-1 h3{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: beige;
+	font-size: 30px;
+}
+
+.main .main-1 p{
+	text-align: start;
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(133, 133, 119);
+	font-size: 17px;
+	margin: 19px 15px;
+
+}
+
+.main .main-1 h2{
+	text-align: start;
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 19px 15px;
+	color: beige;
+	font-size: 35px;
+
+}
+
+.main .main-1 h2 mark{
+	color: yellow;
+}
+
+.main .main-1 ul li{
+	text-align: start;
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(133, 133, 119);
+	font-size: 17px;
+	margin: 19px 15px;
+	display: block;
+}
+
+.main .clear{
+	content:"";
+	clear:both;
+}
+
+
+
+.main .main-2{
+	
+	width: 45%;
+	float: right;
+	background-color: rgb(248, 248, 240);
+	margin-top: -107%;
+	margin-right: 17px;
+}
+
+.main .main-2 .title{
+	
+	background-color: rgb(255, 255, 2);
+	box-shadow: 25px;
+	margin-left: -85px;
+	height: 45px;
+}
+
+.main .main-2 .title h3{
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: hsl(0, 0%, 0%);
+	font-size: 30px;
+	margin-left: 15px;
+}
+
+.main .main-2 .s-title h2{
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: hsl(0, 0%, 0%);
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+.main .main-2 .s-title p{
+	text-align: start;
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(133, 133, 119);
+	font-size: 17px;
+	margin: 15px;
+}
